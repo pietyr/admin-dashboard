@@ -34,6 +34,14 @@ nav ul {
 
 nav li {
 	list-style: none;
+	font-size: 1.5rem;
+}
+
+nav li a {
+	display: flex;
+	gap: 0.5rem;
+	text-decoration: none;
+	color: inherit;
 }
 
 div.main-wrapper {
