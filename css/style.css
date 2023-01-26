@@ -12,11 +12,28 @@ body {
 	grid-template-columns: 1fr 4fr;
 	background-color: var(--bgc);
 	color: var(--black);
+	font-family: "Roboto", sans-serif;
 }
 
 nav.dashboard {
 	background-color: var(--main);
 	color: var(--white);
+	padding: 1.5rem;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding-left: 0;
+}
+
+nav li {
+	list-style: none;
 }
 
 div.main-wrapper {
