@@ -80,12 +80,41 @@ div.main-wrapper {
 }
 
 header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	background-color: var(--white);
+	padding: 1rem 3rem;
 }
 
-div.header-top {
+div.header-top,
+div.header-bottom {
 	display: flex;
 	justify-content: space-between;
+}
+
+div.profile-interface {
+	display: flex;
+}
+
+div.greeting {
+	display: flex;
+}
+
+div.greeting-text {
+	display: flex;
+	flex-direction: column;
+}
+
+div.header-bottom ul {
+	margin: 0;
+	padding-left: 0;
+	display: flex;
+	align-items: center;
+}
+
+div.header-bottom ul li {
+	list-style: none;
 }
 
 main {
