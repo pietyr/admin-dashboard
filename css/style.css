@@ -21,6 +21,13 @@ a {
 	transition: 0.15s;
 }
 
+img.avatar {
+	aspect-ratio: 1;
+	border-radius: 50%;
+	display: block;
+	width: 2em;
+}
+
 nav.dashboard {
 	background-color: var(--main);
 	color: var(--white);
@@ -74,6 +81,11 @@ div.main-wrapper {
 
 header {
 	background-color: var(--white);
+}
+
+div.header-top {
+	display: flex;
+	justify-content: space-between;
 }
 
 main {
