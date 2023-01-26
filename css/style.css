@@ -120,6 +120,13 @@ input[type="search"]:focus {
 
 div.profile-interface {
 	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+div.profile-interface {
+	font-size: 1.25rem;
+	font-weight: 700;
 }
 
 div.greeting {
