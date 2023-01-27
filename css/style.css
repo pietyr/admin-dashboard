@@ -171,6 +171,10 @@ div.header-bottom ul li {
 	border-radius: 2rem;
 }
 
+div.header-bottom ul li a {
+	display: block;
+}
+
 main {
 	display: grid;
 	grid-template-columns: 8fr 3fr;
