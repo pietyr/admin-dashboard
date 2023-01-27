@@ -154,10 +154,21 @@ div.header-bottom ul {
 	padding-left: 0;
 	display: flex;
 	align-items: center;
+	gap: 2rem;
 }
 
 div.header-bottom ul li {
+	display: block;
 	list-style: none;
+	background-color: var(--main);
+	color: var(--white);
+	font-weight: 700;
+	font-size: 1.125rem;
+	width: 100px;
+	height: 2.5rem;
+	text-align: center;
+	line-height: 2.5rem;
+	border-radius: 2rem;
 }
 
 main {
