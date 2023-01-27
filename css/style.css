@@ -43,7 +43,7 @@ h1 {
 }
 
 h1,
-li:nth-last-child(4) {
+nav li:nth-last-child(4) {
 	margin-bottom: 4rem;
 }
 
@@ -178,8 +178,8 @@ div.header-bottom ul li a {
 main {
 	display: grid;
 	grid-template-columns: 8fr 3fr;
-	grid-template-rows: repeat(2, 1fr);
-	gap: 1.5rem;
+	grid-template-rows: 1fr;
+	column-gap: 1.5rem;
 	padding: 1.5rem;
 }
 
@@ -203,6 +203,32 @@ div.projects-wrapper {
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 	gap: 1.5rem;
+}
+
+article.project {
+	border-left: 0.5rem solid var(--accent);
+}
+
+article.announcement:not(:last-child) {
+	border-bottom: 1px solid var(--bgc);
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ul.card {
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ul.card li {
+	display: block;
 }
 
 footer p {
