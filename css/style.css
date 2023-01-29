@@ -212,7 +212,20 @@ article.project {
 }
 
 article.announcement:not(:last-child) {
+	padding-bottom: 1rem;
 	border-bottom: 1px solid var(--bgc);
+}
+
+article.announcement:not(:first-child) {
+	padding-top: 1rem;
+}
+
+article.announcement h3 {
+	font-size: 1.0625rem;
+}
+
+article.announcement p {
+	font-size: 0.875rem;
 }
 
 aside {
