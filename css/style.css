@@ -304,3 +304,7 @@ footer p a {
 footer p a:hover {
 	color: var(--light-text);
 }
+
+span.material-icons {
+	cursor: pointer;
+}
