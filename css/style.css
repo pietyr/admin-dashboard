@@ -264,12 +264,43 @@ ul.card {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	gap: 1.5rem;
 }
 
 ul.card li {
-	display: block;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+ul.card li img.avatar {
+	font-size: 1.125rem;
+}
+
+ul.card li div {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+ul.card span.user-tag {
+	font-weight: 700;
+}
+
+ul.card span.app-name {
+	color: var(--light-text);
 }
 
 footer p {
 	margin: 0;
+	text-align: center;
+}
+
+footer p a {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+footer p a:hover {
+	color: var(--light-text);
 }
